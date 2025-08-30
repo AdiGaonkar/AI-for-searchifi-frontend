@@ -231,7 +231,7 @@ const Project = () => {
       </aside>
 
       {/* Chat Section */}
-      <section className="flex-grow flex flex-col relative pt-14 lg:pt-0">
+      <section className="flex-grow flex mt-10 flex-col relative pt-14 lg:pt-0">
         {/* Subtle grid background */}
         <div
           aria-hidden
@@ -273,6 +273,7 @@ const Project = () => {
                 </span>{' '}
                 to send.
               </div>
+              <div className="text-sm mt-3 text-gray-500"> Tip: write <span className="px-2 py-1 rounded-md bg-neutral-800 border border-neutral-700">@ai to interact with AI</span> to send. </div>
             </motion.div>
           )}
 
