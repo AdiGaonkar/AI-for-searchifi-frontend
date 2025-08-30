@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useContext, useRef } from 'react'
-import { UserContext } from '../context/user.context'
+import { UserContext } from '../context/user.context.jsx'
 import { useLocation } from 'react-router-dom'
-import axios from '../config/axios'
-import { initializeSocket, receiveMessage, sendMessage } from '../config/socket'
+import axios from '../config/axios.js'
+import { initializeSocket, receiveMessage, sendMessage } from '../config/socket.js'
 import Markdown from 'markdown-to-jsx'
 import hljs from 'highlight.js'
-import { getWebContainer } from '../config/webcontainer'
+import { getWebContainer } from '../config/webContainer.js'
 import { motion, AnimatePresence } from 'framer-motion'
 
 /* ---------- Syntax Highlight ---------- */
